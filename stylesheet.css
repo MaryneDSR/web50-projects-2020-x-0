@@ -1,0 +1,204 @@
+/* STYLE DU BODY, LA PARTIE VISIBLE DE LA PAGE WEB  */
+
+
+
+
+
+body {display: flex;
+        flex-wrap: wrap;
+    
+	margin:30px;
+	padding:30px;
+    
+    
+    /* IMAGE DE FOND, OU "BACKGROUND-IMAGE", AVEC SON URL */
+        
+        background-color: #c88063;
+    
+}
+
+
+
+
+
+
+/* LIMITE LA LARGEUR DES BLOCS DE CONTENU */
+
+#contenu {display: flex;
+        flex-wrap: wrap;
+	width: 1200px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+
+
+
+
+
+
+/* STYLE DU MENU DE NAVIGATION */
+
+nav { 
+	width: 100%;
+    border:3px solid white; border border-collapse: collapse;
+	background-color: rgba(190, 190, 190, 0);
+    
+}
+
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-shadow: 1px 1px 1px #332d36;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'helvetica', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* STYLE DE LA SECTION PRINCIPALE */
+
+
+section {
+    width: 100%;
+    background-color: rgba(115, 105, 118, 0.42);
+    border: solid 3px white;
+    margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+    /* STYLE DU TITRE PRINCIPAL */
+
+    h1 {
+        color:black;
+        font-family: 'helvetica', sans-serif;
+        font-size: 35px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    /* STYLE DES SOUS-TITRES/TITRES DE SECTION */
+
+    h2 {
+        color: black;
+        font-family: 'helvetica', sans-serif;
+        font-size: 25px;
+       text-align: center;
+       margin-bottom: 10px;
+    }
+
+
+
+    /* STYLE DES PARAGRAPHES */
+
+p {
+        font-family: 'helvetica', sans-serif;
+        font-size: 16px;
+        color : black
+    }
+
+
+table { width: 500px;
+    display: table;
+    border:1px solid white;
+    border border-collapse: collapse;}
+        td, th { width: auto;
+            text-align: "center";
+        height: auto;
+            border : 2px solid white;  }
+
+
+@media (min-width:500px)
+{
+th: : before { content : “Most famous restaurant”;}
+}
+
+@media (max-width: 499px) {
+    th:: before {content “#1 restaurant”;}
+}
+
+@media (min-width:500px)
+{
+th: : before { content : “Most famous site”;}
+}
+
+@media (max-width: 499px) {
+    th:: before {content “#1 site””;}
+}
+
+
+
+
+
+
+
+/* STYLE DU PIED DE PAGE, OU "FOOTER" */
+
+
+#footer {
+   
+    display: inline-block; 
+    text-align: center;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.grid {
+    width: auto;
+    display: grid;
+    padding: 20px;
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    grid-template-column:200px 200px 200px;
+}
+
+.col-sm { background-color: beige;
+    font-size: 20px;
+    font-family : helvetica;
+    height: auto;
+    width: auto;
+    border:1px solid grey; border border-collapse: collapse
+    
+}
+
+.row { background-color: beige;
+    font-size: 20px;
+    font-family : helvetica;
+    height: auto;
+    width: auto;
+    border:1px solid grey; border border-collapse: collapse
+    
+}
+
+
+    /* STYLE DU FOOTER 1 */
+
+ 
+
